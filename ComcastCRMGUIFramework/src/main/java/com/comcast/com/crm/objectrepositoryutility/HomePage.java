@@ -14,7 +14,10 @@ public class HomePage {
 	}
 	
 	@FindBy(xpath="//a[text()='Organizations']")
-   private WebElement orgLink;
+    private WebElement orgLink;
+	
+	@FindBy(xpath="//a[text()='Products']")
+	   private WebElement productLink;
 	
 	@FindBy(xpath="//img[@src='themes/softed/images/btnL3Add.gif']")
 	private WebElement createOrgLink;
